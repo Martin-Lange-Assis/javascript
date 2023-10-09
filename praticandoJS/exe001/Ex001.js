@@ -51,8 +51,6 @@ document.addEventListener("DOMContentLoaded", function () {
         if (isNaN(dolares) || dolares <= 0) {
             window.alert("Informe um valor a ser convertido");
         } else {
-            console.log("Deseja alterar a taxa cambial? (Sim ou Não)");
-
             // Verifica se o checkbox "Alterar a taxa cambial" está marcado
             if (respostaAlterarTaxa.checked) {
                 txCambio = parseFloat(document.getElementById("novaTaxa").value); // Obtém a nova taxa de câmbio do input
@@ -64,9 +62,3 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 });
-
-
-
-
-
-
