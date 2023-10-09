@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício01</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Ex001.js"></script>
+</head>
+
+<body>
+    <div class="card">
+        <h1>Conversor de Moedas</h1>
+        <form>
+            <label for="inputDolares">Valor para conversão (em dólares): </label><br>
+            <input type="text" id="inputDolares"><br>
+            <label for="selectMoeda">Selecione a moeda local:</label>
+            <select id="selectMoeda">
+                <option value="Real">Real (R$)</option>
+                <option value="Euro">Euro (€)</option>
+                <option value="Iene">Iene (¥)</option>
+                <option value="Libra Esterlina">Libra Esterlina (£)</option>
+                <option value="Dólar Australiano">Dólar Australiano (AU$)</option>
+            </select><br>
+            <label for="novaTaxa" aria-hidden="true">Alterar a taxa cambial?</label><input id="resposta"
+                type="checkbox">
+            <input type="number" id="novaTaxa" aria-label="Nova taxa cambial"><br>
+            <button type="button" id="calcular" onclick="converter()">Converter</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+</body>
+
+</html>

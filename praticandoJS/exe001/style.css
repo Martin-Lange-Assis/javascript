@@ -1,0 +1,102 @@
+/* Estilos para o corpo da página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    width: 300px;
+    /* Largura do card */
+    padding: 20px;
+    /* Espaçamento interno do card */
+    margin: 0 auto;
+    /* Centralizar o card na página horizontalmente */
+    border: 1px solid #ccc;
+    /* Borda ao redor do card */
+    border-radius: 5px;
+    /* Cantos arredondados */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    background-color: #F7F8E3;
+    /* Cor de fundo */
+    text-align: center;
+    /* Centralizar conteúdo do card */
+}
+
+/* Estilos para o título */
+.card h1 {
+    font-size: 24px;
+    /* Tamanho da fonte do título */
+    margin-bottom: 20px;
+    /* Espaçamento inferior do título */
+}
+
+/* Estilos para o formulário */
+
+
+label {
+    border-radius: 5px;
+    width: 260px;
+    /* Largura máxima para o label */
+    display: inline-block;
+    /* Para que o label não ocupe toda a largura da linha */
+}
+
+input,
+select:focus {
+    border-color: black;
+}
+
+input,
+select {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-color: #E8E9D7;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+    border-color: #E8E9D7;
+    background-color: #F7F8E3;
+}
+
+/* Estilos para o botão de calcular */
+#calcular {
+    margin-top: 10px;
+}
+
+/* Estilos para o resultado */
+#resultado {
+    margin-top: 20px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/* Estilos para o próprio checkbox */
+label[for="novaTaxa"],
+#resposta {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+/* CSS para ocultar o input de taxa de câmbio por padrão */
+#novaTaxa {
+    display: none;
+
+}
+
+/* CSS para mostrar o input de taxa de câmbio quando o checkbox estiver marcado */
+#resposta:checked~#novaTaxa {
+    display: block;
+    margin: 0 auto;
+
+}
