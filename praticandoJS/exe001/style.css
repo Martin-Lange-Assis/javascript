@@ -38,7 +38,6 @@ body {
 
 /* Estilos para o formulário */
 
-
 label {
     border-radius: 5px;
     width: 260px;
@@ -64,10 +63,6 @@ button {
     border-radius: 5px;
     border-color: #E8E9D7;
     background-color: #F7F8E3;
-}
-
-/* Estilos para o botão de calcular */
-#calcular {
     margin-top: 10px;
 }
 
