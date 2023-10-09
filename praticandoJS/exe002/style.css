@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.card {
+    width: 300px;
+    /* Largura do card */
+    padding: 20px;
+    /* Espaçamento interno do card */
+    margin: 0 auto;
+    /* Centralizar o card na página horizontalmente */
+    border: 1px solid rgb(116, 116, 2);
+    /* Borda ao redor do card */
+    border-radius: 5px;
+    /* Cantos arredondados */
+    background-color: rgb(102, 4, 4);
+    /* Cor de fundo */
+    text-align: center;
+    /* Centralizar conteúdo do card */
+}
+
+/* Estilos para o título */
+.card h1 {
+    font-size: 24px;
+    /* Tamanho da fonte do título */
+    margin-bottom: 20px;
+    /* Espaçamento inferior do título */
+    color: white;
+}
+
+label {
+    color: white;
+    border-radius: 5px;
+    width: 260px;
+    /* Largura máxima para o label */
+    display: inline-block;
+    /* Para que o label não ocupe toda a largura da linha */
+}
+
+input:focus {
+    border-color: rgb(116, 116, 2);
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-color: rgb(116, 116, 2);
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+    border-color: rgb(116, 116, 2);
+    background-color: rgb(116, 116, 2);
+    margin-top: 10px;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 40px;
+    border: 1px solid rgb(116, 116, 2);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
