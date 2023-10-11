@@ -31,13 +31,11 @@ label {
     display: inline-block;
 }
 
-input,
-select:focus {
+input:focus {
     border-color: black;
 }
 
-input,
-select {
+input {
     margin-top: 5px;
     margin-bottom: 5px;
     border-color: #E8E9D7;
